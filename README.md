@@ -1,4 +1,6 @@
 # This is the contest no one asked for <br>
+![](image.png)
+## Who will be crowned Coding Champion?
 The aim of this contest is to decode the secret message inside the file "secret.txt". <br>
 The first person to decode the message wins a special prize.*<br>
 The file is encoded in such a way that each line represents one letter. The number of vowels in each line represents the letter index in the alphabet: "space" - 0 vowels, "a" - 1 vowel, "b" - 2 vowels, ..., "z" = 26 vowels.<br>
