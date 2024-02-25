@@ -13,7 +13,11 @@ def test_husband_requirements():
                     if rich in ["yes", "Yes", "Y", "y"]:
                         shoulders = input("Do you have broad shoulders?\n")
                         if shoulders in ["yes", "Yes", "Y", "y"]:
-                            print("Congrats, you qualify to be Oli's husband!!")
+                            latino = input("Are you latino?\n")
+                            if latino in ["yes", "Yes", "Y", "y"]:
+                                print("Congrats, you qualify to be Oli's husband!!")
+                            else:
+                                print("Sorry, you don't qualify")
                         else:
                             print("Sorry, you don't qualify")
                     else:
